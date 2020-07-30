@@ -16,8 +16,8 @@ public class Program {
         contact.add(new Person("Audrey Lee", "0724912270", "Smultronskogen 20", "2809", "980514"));
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter a name or phone number: "); //ask user for width value
-        String input = scan.nextLine(); //store width value
+        System.out.print("Enter a name or phone number: "); 
+        String input = scan.nextLine(); 
 
         for (Person person : contact) {
             if (person.getName().equals(input) || person.getNumber().equals(input)) {
